@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="/assets/css/regHallStyle.css">
+	<title>Register Hall | Residence App</title>
+</head>
+<body>
+	
+	<h1>University of Ghana</h1>
+
+	<div >
+	<label for="regDate">Current Date</label><br>
+	<input type="Date" name="regDate" id="regDate">
+</div>
+	<br>
+	<div style="text-align:center;">
+
+	<form method="POST" action="/ugresidential/registerhall" id="frmHall" name="frmHall">
+
+		<select name="cmbHalls" id="cmbHalls" >
+			<option>Choose a hall</option>
+					<option value="Akuafo Hall">Akuafo Hall</option>
+					<option value="Mensah Sarbah Hall">Mensah Sarbah Hall</option>
+					<option value="LH">Legon Hall</option>
+					<option value="CwH">Commonwealth Hall</option>
+					<opton value="VH">Volta Hall</opton>
+					<option value="Jubliee Hall">Jubliee</option>
+				</select>
+		
+		<br>
+
+				<br><select id="cmbRooms" name="cmbRooms" >
+					<option>Choose a room</option>
+						<option value="room 001">UG  4001</option>
+						<option value="room 002">UG 4002</option>
+						<option value="room 003">UG 4003</option>
+						<option value="room 004">UG 4004</option>
+						<opton value="room 005">UG 4005</opton>
+						<option value="room 006">UG 4006</option>
+						<option value="room 007">UG 4007</option>
+						<option value="room 008">UG 4008</option>
+						<option value="room 009">UG 4009</option>
+						<option value="room 010">UG 5000</option>
+					</select>
+				</option>
+			</select><br>
+
+	<br><button type="submit" id="btnSaveHall">Save</button>
+
+		
+	</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../assets/css/regStudent.css">
+    <title>Register Student| UG Student</title>
+</head>
+
+                    <h2 id="greeting">University of Ghana</h2>
+
+    <form action="/ugresidential/register" method="POST" id="frmRegisterStudent" name="frmRegisterStudent">
+        <input type="text" name="tfStudentName" id="tfStudentName" placeholder="Name"><br>
+        <input type="text" name="tfStudentID" id="tfStudentID" placeholder="Student ID" required><br>
+        <input type="text" name="tfProgramme" id="tfProgramme" placeholder="Programme"><br>
+        <input type="text" name="tfStudentPin" id="tfStudentPin" placeholder="Student Pin" required><br>
+        <select name="cmbLevel" id="cmbLevel">
+            <option >Level</option>
+            <option value="L100">Level 100</option>
+            <option value="L200">Level 200</option>
+            <option value="L300">Level 300</option>
+            <option value="L400">Level 400</option>
+        </select>
+        <select name="cmbGender" id="cmbGender">
+            <optgroup >
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </optgroup>
+        </select><br>
+        
+        
+        <input type="submit" value="Register">
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+</html>
